@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "0304test"
+  description: "0304test"
+  annotations:
+    argocd/app-name: ARGOCDAPP
+    sonarqube.org/project-key: SONARPROJ
+    jenkins.io/job-full-name: JENKINSJOB
+    #github.com/project-slug: kbmdev/03042023
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-id: "03042023"
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "group:default/jvs"
